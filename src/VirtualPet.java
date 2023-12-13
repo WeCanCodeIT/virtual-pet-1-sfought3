@@ -1,9 +1,9 @@
 
 public class VirtualPet {
-    String name;
-    int thirst;
-    int hunger;
-    int boredom;
+    private String name;
+    private int thirst;
+    private int hunger;
+    private int boredom;
 
     // constructors
     public VirtualPet(String name) {
