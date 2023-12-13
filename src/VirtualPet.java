@@ -53,19 +53,19 @@ public class VirtualPet {
 
     public void petIsHungry() {
         if (hunger > 80) {
-        System.out.println("Your pet is bored play with them");//fix words
+        System.out.println("Your pet is hungry,you need to feed them. ");
         }
     }
 
     public void petIsThirsty() {
         if (thirst > 80) {
-                System.out.println("Your pet is bored play with them");//fix words
+                System.out.println("Your pet is thirsty, you need to give them water.");
         }
     }
 
     public void petIsBored() {
         if (boredom > 80) {
-            System.out.println("Your pet is bored play with them");
+            System.out.println("Your pet is bored, you need to play with them. ");
         }
     }
 
@@ -76,8 +76,8 @@ public class VirtualPet {
     }
 
     public void waterPet() {
-        hunger += 5;
-        thirst -= 2;
+        hunger += 2;
+        thirst -= 5;
         boredom += 2;
     }
 
